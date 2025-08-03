@@ -21,6 +21,12 @@ export const mockData = {
           "icon": "/sitelogo/t.me.ico"
         },
         {
+          "id": "site-1754250149022",
+          "name": "Lucky AI",
+          "url": "https://luckyai.app/ZH",
+          "description": "Lucky AI全网第一家纯AI智能翻译器。"
+        },
+        {
           "id": "site-1752857783656",
           "name": "OpenAI",
           "url": "https://chatgpt.com",
@@ -40,12 +46,6 @@ export const mockData = {
           "url": "https://www.intelius.com/",
           "description": "人物搜索",
           "icon": "/sitelogo/www.intelius.com.ico"
-        },
-        {
-          "id": "site-1754250149022",
-          "name": "Lucky AI",
-          "url": "https://luckyai.app/ZH",
-          "description": "Lucky AI全网第一家纯AI智能翻译器，视频，语音，图片一键翻译。"
         }
       ]
     },
