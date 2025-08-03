@@ -15,10 +15,10 @@ export const mockData = {
         },
         {
           "id": "linux-do",
-          "name": "Linux.do",
-          "url": "https://linux.do",
-          "description": "Linux技术社区，Peace and Love",
-          "icon": "/sitelogo/linux.do.ico"
+          "name": "finviz",
+          "url": "https://finviz.com/crypto.ashx",
+          "description": "加密趋势，加密货币热图",
+          "icon": "/sitelogo/finviz.com.ico"
         },
         {
           "id": "site-1752649007053",
@@ -29,10 +29,10 @@ export const mockData = {
         },
         {
           "id": "github",
-          "name": "GitHub",
-          "url": "https://github.com",
-          "description": "代码托管平台",
-          "icon": "/sitelogo/github.com.ico"
+          "name": "intelius",
+          "url": "https://www.intelius.com/",
+          "description": "人物搜索",
+          "icon": "/sitelogo/www.intelius.com.ico"
         },
         {
           "id": "curlconverter",
@@ -481,6 +481,5 @@ export const mockData = {
       ]
     }
   ],
-  "title": "纵横导航",
-  "_fileSha": "ca958166ec3c13c036a10a7a7c0406b9dad37032"
+  "title": "纵横导航"
 }
