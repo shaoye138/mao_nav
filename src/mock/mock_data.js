@@ -7,6 +7,20 @@ export const mockData = {
       "order": 0,
       "sites": [
         {
+          "id": "site-1752649007053",
+          "name": "纵横出海",
+          "url": "https://www.huashu.me/",
+          "description": "纵横出海",
+          "icon": "/sitelogo/www.huashu.me.ico"
+        },
+        {
+          "id": "curlconverter",
+          "name": "思路频道",
+          "url": "https://t.me/ZHCHPD",
+          "description": "思路",
+          "icon": "/sitelogo/t.me.ico"
+        },
+        {
           "id": "site-1752857783656",
           "name": "OpenAI",
           "url": "https://chatgpt.com",
@@ -21,25 +35,11 @@ export const mockData = {
           "icon": "/sitelogo/finviz.com.ico"
         },
         {
-          "id": "site-1752649007053",
-          "name": "BeJson",
-          "url": "https://www.bejson.com/",
-          "description": "工具大全",
-          "icon": "/sitelogo/www.bejson.com.ico"
-        },
-        {
           "id": "github",
           "name": "intelius",
           "url": "https://www.intelius.com/",
           "description": "人物搜索",
           "icon": "/sitelogo/www.intelius.com.ico"
-        },
-        {
-          "id": "curlconverter",
-          "name": "curl converter",
-          "url": "https://curlconverter.com/",
-          "description": "curl命令转换工具",
-          "icon": "/sitelogo/curlconverter.com.ico"
         }
       ]
     },
