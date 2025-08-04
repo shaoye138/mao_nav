@@ -122,14 +122,14 @@ export const mockData = {
           "id": "site-1754338000371",
           "name": "Trust Wallet（信任钱包）",
           "url": "https://trustwallet.com/?utm_source=cryptwerk",
-          "description": "使用信用卡/借记卡购买 ，容易使用，验证很快",
+          "description": "使用信用卡/借记卡购买。",
           "icon": "/sitelogo/trustwallet.com.ico"
         },
         {
           "id": "site-1754338073642",
           "name": "MetaMask (小狐狸)",
           "url": "https://metamask.io/",
-          "description": "使用信用卡/借记卡购买 ，容易使用，验证很快，每天可以到达1万",
+          "description": "使用信用卡/借记卡购买。",
           "icon": "/sitelogo/metamask.io.ico"
         }
       ]
