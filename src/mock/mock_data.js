@@ -139,7 +139,15 @@ export const mockData = {
       "icon": "🌐",
       "name": "IP查询",
       "order": 2,
-      "sites": []
+      "sites": [
+        {
+          "id": "site-1754338732525",
+          "name": "PING0",
+          "url": "https://ping0.cc/",
+          "description": "IP地址查询",
+          "icon": "/sitelogo/ping0.cc.ico"
+        }
+      ]
     },
     {
       "id": "ai-tools",
