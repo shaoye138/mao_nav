@@ -56,6 +56,13 @@ export const mockData = {
       "order": 1,
       "sites": [
         {
+          "id": "coinbase",
+          "name": "Coinbase",
+          "url": "https://www.coinbase.com",
+          "description": "美国合规加密货币交易平台",
+          "icon": "/sitelogo/www.coinbase.com.ico"
+        },
+        {
           "id": "binance",
           "name": "币安",
           "url": "https://www.binance.com",
@@ -75,6 +82,27 @@ export const mockData = {
           "url": "https://www.bitget.com",
           "description": "全球化数字资产交易服务商",
           "icon": "/sitelogo/www.bitget.com.ico"
+        },
+        {
+          "id": "site-1754338000371",
+          "name": "Trust Wallet（信任钱包）",
+          "url": "https://trustwallet.com/?utm_source=cryptwerk",
+          "description": "使用信用卡/借记卡购买。",
+          "icon": "/sitelogo/trustwallet.com.ico"
+        },
+        {
+          "id": "site-1754338073642",
+          "name": "MetaMask (小狐狸)",
+          "url": "https://metamask.io/",
+          "description": "使用信用卡/借记卡购买。",
+          "icon": "/sitelogo/metamask.io.ico"
+        },
+        {
+          "id": "site-1754337892049",
+          "name": "Cash app",
+          "url": "https://cash.app/",
+          "description": "适合首冲 没质量客户",
+          "icon": "/sitelogo/cash.app.ico"
         },
         {
           "id": "tradingview",
@@ -98,39 +126,11 @@ export const mockData = {
           "icon": "/sitelogo/xueqiu.com.ico"
         },
         {
-          "id": "coinbase",
-          "name": "Coinbase",
-          "url": "https://www.coinbase.com",
-          "description": "美国合规加密货币交易平台",
-          "icon": "/sitelogo/www.coinbase.com.ico"
-        },
-        {
           "id": "futu",
           "name": "富途牛牛",
           "url": "https://www.futunn.com",
           "description": "港美股交易软件",
           "icon": "/sitelogo/www.futunn.com.ico"
-        },
-        {
-          "id": "site-1754337892049",
-          "name": "Cash app",
-          "url": "https://cash.app/",
-          "description": "适合首冲 没质量客户",
-          "icon": "/sitelogo/cash.app.ico"
-        },
-        {
-          "id": "site-1754338000371",
-          "name": "Trust Wallet（信任钱包）",
-          "url": "https://trustwallet.com/?utm_source=cryptwerk",
-          "description": "使用信用卡/借记卡购买。",
-          "icon": "/sitelogo/trustwallet.com.ico"
-        },
-        {
-          "id": "site-1754338073642",
-          "name": "MetaMask (小狐狸)",
-          "url": "https://metamask.io/",
-          "description": "使用信用卡/借记卡购买。",
-          "icon": "/sitelogo/metamask.io.ico"
         }
       ]
     },
