@@ -135,10 +135,17 @@ export const mockData = {
       ]
     },
     {
+      "id": "category-1754338555532",
+      "icon": "🌐",
+      "name": "IP查询",
+      "order": 2,
+      "sites": []
+    },
+    {
       "id": "ai-tools",
       "name": "AI智能",
       "icon": "🤖",
-      "order": 2,
+      "order": 3,
       "sites": [
         {
           "id": "chatgpt",
@@ -181,7 +188,7 @@ export const mockData = {
       "id": "learning",
       "name": "学习资源",
       "icon": "📚",
-      "order": 7,
+      "order": 4,
       "sites": [
         {
           "id": "mdn",
@@ -217,7 +224,7 @@ export const mockData = {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 8,
+      "order": 5,
       "sites": [
         {
           "id": "json-formatter",
@@ -253,7 +260,7 @@ export const mockData = {
       "id": "entertainment",
       "name": "娱乐休闲",
       "icon": "🎮",
-      "order": 9,
+      "order": 6,
       "sites": [
         {
           "id": "bilibili",
@@ -289,7 +296,7 @@ export const mockData = {
       "id": "office",
       "name": "办公协作",
       "icon": "💼",
-      "order": 10,
+      "order": 7,
       "sites": [
         {
           "id": "notion",
