@@ -63,34 +63,6 @@ export const mockData = {
           "icon": "/sitelogo/www.coinbase.com.ico"
         },
         {
-          "id": "site-1754353536246",
-          "name": "Crypto.com（小C）",
-          "url": "https://crypto.com/",
-          "description": "小C交易所",
-          "icon": "/sitelogo/crypto.com.ico"
-        },
-        {
-          "id": "site-1754353580326",
-          "name": "Kraken",
-          "url": "https://www.kraken.com/",
-          "description": "海妖交易所",
-          "icon": "/sitelogo/www.kraken.com.ico"
-        },
-        {
-          "id": "site-1754353615697",
-          "name": "Kraken Pro",
-          "url": "https://pro.kraken.com/",
-          "description": "海妖Pro",
-          "icon": "/sitelogo/pro.kraken.com.ico"
-        },
-        {
-          "id": "site-1754353659459",
-          "name": "Gemini (双子星)",
-          "url": "https://www.gemini.com/",
-          "description": "双子星交易所",
-          "icon": "/sitelogo/www.gemini.com.ico"
-        },
-        {
           "id": "binance",
           "name": "币安",
           "url": "https://www.binance.com",
@@ -112,13 +84,6 @@ export const mockData = {
           "icon": "/sitelogo/www.bitget.com.ico"
         },
         {
-          "id": "site-1754353701561",
-          "name": "Bitstamp",
-          "url": "https://www.bitstamp.net/",
-          "description": "很不错用的一个钱包",
-          "icon": "/sitelogo/www.bitstamp.net.ico"
-        },
-        {
           "id": "site-1754338000371",
           "name": "Trust Wallet（信任钱包）",
           "url": "https://trustwallet.com/?utm_source=cryptwerk",
@@ -138,13 +103,6 @@ export const mockData = {
           "url": "https://cash.app/",
           "description": "适合首冲 没质量客户",
           "icon": "/sitelogo/cash.app.ico"
-        },
-        {
-          "id": "site-1754353735858",
-          "name": "Uphold",
-          "url": "https://uphold.com/",
-          "description": "Uphold钱包操作复杂",
-          "icon": "/sitelogo/uphold.com.ico"
         },
         {
           "id": "tradingview",
@@ -188,6 +146,13 @@ export const mockData = {
           "url": "https://ping0.cc/",
           "description": "IP地址查询",
           "icon": "/sitelogo/ping0.cc.ico"
+        },
+        {
+          "id": "site-1754354149265",
+          "name": "IP234.",
+          "url": "https://ip234.in/en  ",
+          "description": "IP地址查询",
+          "icon": "/sitelogo/ip234.in.ico"
         }
       ]
     },
