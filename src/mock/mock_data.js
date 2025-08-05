@@ -159,7 +159,7 @@ export const mockData = {
           "id": "site-1754365570247",
           "name": "索菲贷",
           "url": "http://www.sofi.com/",
-          "description": "最高100K 未知信用分\n（很快额度高 贷款类型多种 ）\n密西西比州地区受限 首选",
+          "description": "最高100K 未知信用分\n\n（很快额度高 贷款类型多种 ）\n密西西比州地区受限 首选",
           "icon": "/sitelogo/www.sofi.com.ico"
         },
         {
