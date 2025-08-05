@@ -158,10 +158,32 @@ export const mockData = {
       ]
     },
     {
+      "id": "category-1754365285901",
+      "icon": "📊",
+      "name": "贷款平台",
+      "order": 3,
+      "sites": [
+        {
+          "id": "site-1754365333096",
+          "name": "暴发户贷",
+          "url": "https://www.upstart.com/",
+          "description": "最高50K 300信用评分",
+          "icon": "/sitelogo/www.upstart.com.ico"
+        },
+        {
+          "id": "site-1754365390379",
+          "name": "借贷俱乐部贷",
+          "url": "https://www.lendingclub.com/",
+          "description": "最高40K 未透露信用分 \n不良信用贷款",
+          "icon": "/sitelogo/www.lendingclub.com.ico"
+        }
+      ]
+    },
+    {
       "id": "ai-tools",
       "name": "AI智能",
       "icon": "🤖",
-      "order": 3,
+      "order": 4,
       "sites": [
         {
           "id": "chatgpt",
