@@ -136,32 +136,10 @@ export const mockData = {
       ]
     },
     {
-      "id": "category-1754338555532",
-      "icon": "🌐",
-      "name": "IP查询",
-      "order": 2,
-      "sites": [
-        {
-          "id": "site-1754338732525",
-          "name": "PING0",
-          "url": "https://ping0.cc/",
-          "description": "IP地址查询",
-          "icon": "/sitelogo/ping0.cc.ico"
-        },
-        {
-          "id": "site-1754354149265",
-          "name": "IP234",
-          "url": "https://ip234.in/en  ",
-          "description": "IP地址查询",
-          "icon": "/sitelogo/ip234.in.ico"
-        }
-      ]
-    },
-    {
       "id": "category-1754365285901",
       "icon": "📊",
       "name": "贷款平台",
-      "order": 3,
+      "order": 2,
       "sites": [
         {
           "id": "site-1754365333096",
@@ -176,6 +154,28 @@ export const mockData = {
           "url": "https://www.lendingclub.com/",
           "description": "最高40K 未透露信用分 \n不良信用贷款",
           "icon": "/sitelogo/www.lendingclub.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "category-1754338555532",
+      "icon": "🌐",
+      "name": "IP查询",
+      "order": 3,
+      "sites": [
+        {
+          "id": "site-1754338732525",
+          "name": "PING0",
+          "url": "https://ping0.cc/",
+          "description": "IP地址查询",
+          "icon": "/sitelogo/ping0.cc.ico"
+        },
+        {
+          "id": "site-1754354149265",
+          "name": "IP234",
+          "url": "https://ip234.in/en  ",
+          "description": "IP地址查询",
+          "icon": "/sitelogo/ip234.in.ico"
         }
       ]
     },
