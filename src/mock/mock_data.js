@@ -154,6 +154,26 @@ export const mockData = {
           "url": "https://www.lendingclub.com/",
           "description": "最高40K 未透露信用分 \n不良信用贷款",
           "icon": "/sitelogo/www.lendingclub.com.ico"
+        },
+        {
+          "id": "site-1754365570247",
+          "name": "索菲贷",
+          "url": "http://www.sofi.com/",
+          "description": "最高100K 未知信用分（很快额度高 贷款类型多种 ）\n密西西比州地区受限 首选",
+          "icon": "/sitelogo/www.sofi.com.ico"
+        },
+        {
+          "id": "site-1754365597746",
+          "name": "繁荣贷",
+          "url": "https://www.prosper.com/",
+          "description": "最高40K 640信用评分（1个工作日）"
+        },
+        {
+          "id": "site-1754365634504",
+          "name": "机会贷 ",
+          "url": "https://oportun.com/ ",
+          "description": "最高10K 650信用评分（不需要SSN,不是美国身份也可以） \n不良信用贷款",
+          "icon": "/sitelogo/oportun.com.ico"
         }
       ]
     },
