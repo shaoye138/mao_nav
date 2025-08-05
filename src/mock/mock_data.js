@@ -24,7 +24,8 @@ export const mockData = {
           "id": "site-1754250149022",
           "name": "Lucky AI",
           "url": "https://luckyai.app/ZH",
-          "description": "Lucky AI全网第一家纯AI智能翻译器。"
+          "description": "Lucky AI全网第一家纯AI智能翻译器。",
+          "icon": "https://i.mji.rip/2025/08/05/e282f6fa6f40aa408cfc76e96a8ee7c6.jpeg"
         },
         {
           "id": "site-1752857783656",
