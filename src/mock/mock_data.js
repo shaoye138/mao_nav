@@ -172,7 +172,7 @@ export const mockData = {
           "id": "site-1754365634504",
           "name": "机会贷 ",
           "url": "https://oportun.com/ ",
-          "description": "最高10K 650信用评分（不需要SSN,不是美国身份也可以） \n不良信用贷款",
+          "description": "最高10K 650信用评分\n（不需要SSN,不是美国身份也可以） \n不良信用贷款",
           "icon": "/sitelogo/oportun.com.ico"
         }
       ]
