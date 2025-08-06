@@ -370,10 +370,32 @@ export const mockData = {
       ]
     },
     {
+      "id": "category-1754442506509",
+      "icon": "🔍",
+      "name": "查询资质",
+      "order": 3,
+      "sites": [
+        {
+          "id": "site-1754442570991",
+          "name": "truepeoplesearch",
+          "url": "https://www.truepeoplesearch.com/",
+          "description": "人物搜索",
+          "icon": "/sitelogo/www.truepeoplesearch.com.ico"
+        },
+        {
+          "id": "site-1754442632984",
+          "name": "intelius",
+          "url": "https://www.intelius.com/",
+          "description": "人物搜索",
+          "icon": "/sitelogo/www.intelius.com.ico"
+        }
+      ]
+    },
+    {
       "id": "category-1754338555532",
       "icon": "🌐",
       "name": "IP查询",
-      "order": 3,
+      "order": 4,
       "sites": [
         {
           "id": "site-1754338732525",
@@ -395,7 +417,7 @@ export const mockData = {
       "id": "ai-tools",
       "name": "AI智能",
       "icon": "🤖",
-      "order": 4,
+      "order": 5,
       "sites": [
         {
           "id": "chatgpt",
@@ -438,7 +460,7 @@ export const mockData = {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 5,
+      "order": 6,
       "sites": [
         {
           "id": "json-formatter",
