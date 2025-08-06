@@ -414,10 +414,25 @@ export const mockData = {
       ]
     },
     {
+      "id": "category-1754447667661",
+      "icon": "🔍",
+      "name": "ATM机器全球网站",
+      "order": 5,
+      "sites": [
+        {
+          "id": "site-1754447713142",
+          "name": "比特币（BTC）ATM机器全球网站",
+          "url": " https://coinatmradar.com/",
+          "description": "搜索附近的比特币 ATM",
+          "icon": "/sitelogo/coinatmradar.com.ico"
+        }
+      ]
+    },
+    {
       "id": "ai-tools",
       "name": "AI智能",
       "icon": "🤖",
-      "order": 5,
+      "order": 6,
       "sites": [
         {
           "id": "chatgpt",
@@ -460,7 +475,7 @@ export const mockData = {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 6,
+      "order": 7,
       "sites": [
         {
           "id": "json-formatter",
@@ -489,21 +504,6 @@ export const mockData = {
           "url": "https://tinypng.com",
           "description": "图片压缩工具",
           "icon": "/sitelogo/tinypng.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "category-1754447667661",
-      "icon": "🔍",
-      "name": "比特币ATM机器",
-      "order": 0,
-      "sites": [
-        {
-          "id": "site-1754447713142",
-          "name": "比特币（BTC）ATM机器全球网站",
-          "url": " https://coinatmradar.com/",
-          "description": "搜索附近的比特币 ATM",
-          "icon": "/sitelogo/coinatmradar.com.ico"
         }
       ]
     }
