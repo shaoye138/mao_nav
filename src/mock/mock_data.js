@@ -47,13 +47,6 @@ export const mockData = {
           "url": "https://www.intelius.com/",
           "description": "人物搜索",
           "icon": "/sitelogo/www.intelius.com.ico"
-        },
-        {
-          "id": "site-1754447713142",
-          "name": "比特币（BTC）ATM机器全球网站",
-          "url": " https://coinatmradar.com/",
-          "description": "搜索附近的比特币 ATM",
-          "icon": "/sitelogo/coinatmradar.com.ico"
         }
       ]
     },
@@ -504,7 +497,15 @@ export const mockData = {
       "icon": "🔍",
       "name": "比特币ATM机器",
       "order": 0,
-      "sites": []
+      "sites": [
+        {
+          "id": "site-1754447713142",
+          "name": "比特币（BTC）ATM机器全球网站",
+          "url": " https://coinatmradar.com/",
+          "description": "搜索附近的比特币 ATM",
+          "icon": "/sitelogo/coinatmradar.com.ico"
+        }
+      ]
     }
   ],
   "title": "纵横导航"
