@@ -429,10 +429,24 @@ export const mockData = {
       ]
     },
     {
+      "id": "category-1754526167091",
+      "icon": "🔍",
+      "name": "反向搜索",
+      "order": 6,
+      "sites": [
+        {
+          "id": "site-1754526228922",
+          "name": "facecheck",
+          "url": "https://facecheck.id/zh",
+          "description": "通过照片在线查找人员\n\n"
+        }
+      ]
+    },
+    {
       "id": "ai-tools",
       "name": "AI智能",
       "icon": "🤖",
-      "order": 6,
+      "order": 7,
       "sites": [
         {
           "id": "chatgpt",
@@ -475,7 +489,7 @@ export const mockData = {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 7,
+      "order": 8,
       "sites": [
         {
           "id": "json-formatter",
