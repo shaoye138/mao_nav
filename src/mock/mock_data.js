@@ -7,6 +7,27 @@ export const mockData = {
       "order": 0,
       "sites": [
         {
+          "id": "site-1752649007053",
+          "name": "纵横出海",
+          "url": "https://www.huashu.me/",
+          "description": "纵横出海",
+          "icon": "/sitelogo/www.huashu.me.ico"
+        },
+        {
+          "id": "curlconverter",
+          "name": "思路频道",
+          "url": "https://t.me/ZHCHPD",
+          "description": "思路",
+          "icon": "/sitelogo/t.me.ico"
+        },
+        {
+          "id": "site-1754250149022",
+          "name": "Lucky AI",
+          "url": "https://luckyai.app/ZH",
+          "description": "Lucky AI全网第一家纯AI智能翻译器。",
+          "icon": "https://i.mji.rip/2025/08/05/e282f6fa6f40aa408cfc76e96a8ee7c6.jpeg"
+        },
+        {
           "id": "site-1752857783656",
           "name": "OpenAI",
           "url": "https://chatgpt.com",
@@ -15,31 +36,409 @@ export const mockData = {
         },
         {
           "id": "linux-do",
-          "name": "Linux.do",
-          "url": "https://linux.do",
-          "description": "Linux技术社区，Peace and Love",
-          "icon": "/sitelogo/linux.do.ico"
-        },
-        {
-          "id": "site-1752649007053",
-          "name": "BeJson",
-          "url": "https://www.bejson.com/",
-          "description": "工具大全",
-          "icon": "/sitelogo/www.bejson.com.ico"
+          "name": "finviz",
+          "url": "https://finviz.com/crypto.ashx",
+          "description": "加密趋势，加密货币热图",
+          "icon": "/sitelogo/finviz.com.ico"
         },
         {
           "id": "github",
-          "name": "GitHub",
-          "url": "https://github.com",
-          "description": "代码托管平台",
-          "icon": "/sitelogo/github.com.ico"
+          "name": "intelius",
+          "url": "https://www.intelius.com/",
+          "description": "人物搜索",
+          "icon": "/sitelogo/www.intelius.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "财经投资",
+      "icon": "💰",
+      "order": 1,
+      "sites": [
+        {
+          "id": "coinbase",
+          "name": "Coinbase",
+          "url": "https://www.coinbase.com",
+          "description": "美国合规加密货币交易平台",
+          "icon": "/sitelogo/www.coinbase.com.ico"
         },
         {
-          "id": "curlconverter",
-          "name": "curl converter",
-          "url": "https://curlconverter.com/",
-          "description": "curl命令转换工具",
-          "icon": "/sitelogo/curlconverter.com.ico"
+          "id": "binance",
+          "name": "币安",
+          "url": "https://www.binance.com",
+          "description": "加密货币交易平台",
+          "icon": "/sitelogo/www.binance.com.ico"
+        },
+        {
+          "id": "okx",
+          "name": "OKX",
+          "url": "https://www.okx.com",
+          "description": "数字资产交易服务平台",
+          "icon": "/sitelogo/www.okx.com.ico"
+        },
+        {
+          "id": "bitget",
+          "name": "Bitget",
+          "url": "https://www.bitget.com",
+          "description": "全球化数字资产交易服务商",
+          "icon": "/sitelogo/www.bitget.com.ico"
+        },
+        {
+          "id": "site-1754338000371",
+          "name": "Trust Wallet（信任钱包）",
+          "url": "https://trustwallet.com/?utm_source=cryptwerk",
+          "description": "使用信用卡/借记卡购买。",
+          "icon": "/sitelogo/trustwallet.com.ico"
+        },
+        {
+          "id": "site-1754338073642",
+          "name": "MetaMask (小狐狸)",
+          "url": "https://metamask.io/",
+          "description": "使用信用卡/借记卡购买。",
+          "icon": "/sitelogo/metamask.io.ico"
+        },
+        {
+          "id": "site-1754337892049",
+          "name": "Cash app",
+          "url": "https://cash.app/",
+          "description": "适合首冲 没质量客户",
+          "icon": "/sitelogo/cash.app.ico"
+        },
+        {
+          "id": "tradingview",
+          "name": "TradingView",
+          "url": "https://cn.tradingview.com",
+          "description": "专业金融图表和交易平台",
+          "icon": "/sitelogo/cn.tradingview.com.ico"
+        },
+        {
+          "id": "tonghuashun",
+          "name": "同花顺",
+          "url": "https://www.10jqka.com.cn",
+          "description": "专业股票软件及金融信息服务",
+          "icon": "/sitelogo/www.10jqka.com.cn.ico"
+        },
+        {
+          "id": "xueqiu",
+          "name": "雪球",
+          "url": "https://xueqiu.com",
+          "description": "聪明的投资者都在这里",
+          "icon": "/sitelogo/xueqiu.com.ico"
+        },
+        {
+          "id": "futu",
+          "name": "富途牛牛",
+          "url": "https://www.futunn.com",
+          "description": "港美股交易软件",
+          "icon": "/sitelogo/www.futunn.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "category-1754365285901",
+      "icon": "📊",
+      "name": "贷款平台",
+      "order": 2,
+      "sites": [
+        {
+          "id": "site-1754365333096",
+          "name": "暴发户贷",
+          "url": "https://www.upstart.com/",
+          "description": "最高50K 300信用评分",
+          "icon": "/sitelogo/www.upstart.com.ico"
+        },
+        {
+          "id": "site-1754365390379",
+          "name": "借贷俱乐部贷",
+          "url": "https://www.lendingclub.com/",
+          "description": "最高40K 未透露信用分 \n不良信用贷款",
+          "icon": "/sitelogo/www.lendingclub.com.ico"
+        },
+        {
+          "id": "site-1754365570247",
+          "name": "索菲贷",
+          "url": "http://www.sofi.com/",
+          "description": "最高100K 未知信用分\n\n（很快额度高 贷款类型多种 ）\n密西西比州地区受限 首选",
+          "icon": "/sitelogo/www.sofi.com.ico"
+        },
+        {
+          "id": "site-1754365597746",
+          "name": "繁荣贷",
+          "url": "https://www.prosper.com/",
+          "description": "最高40K 640信用评分（1个工作日）"
+        },
+        {
+          "id": "site-1754365634504",
+          "name": "机会贷 ",
+          "url": "https://oportun.com/ ",
+          "description": "最高10K 650信用评分\n（不需要SSN,不是美国身份也可以） \n不良信用贷款",
+          "icon": "/sitelogo/oportun.com.ico"
+        },
+        {
+          "id": "site-1754365824173",
+          "name": "信用合作社贷",
+          "url": "https://www.penfed.org/ ",
+          "description": "最高50K 650信用评分",
+          "icon": "/sitelogo/www.penfed.org.ico"
+        },
+        {
+          "id": "site-1754365854322",
+          "name": "升级贷",
+          "url": "https://www.upgrade.com/",
+          "description": "最高50K \n（目前没有透露信用评分） 不良信用贷款",
+          "icon": "/sitelogo/www.upgrade.com.ico"
+        },
+        {
+          "id": "site-1754365882950",
+          "name": "光流贷",
+          "url": "https://www.lightstream.com/",
+          "description": "最高100K 670信用评分 \n家居装修用途易下款 优秀信用记录的最佳贷款",
+          "icon": "/sitelogo/www.lightstream.com.ico"
+        },
+        {
+          "id": "site-1754365905905",
+          "name": "马库斯贷",
+          "url": "https://www.marcus.com/us/en/login",
+          "description": "最高100K 670信用评分",
+          "icon": "/sitelogo/www.marcus.com.ico"
+        },
+        {
+          "id": "site-1754365927823",
+          "name": "付清贷",
+          "url": "https://payoff.com/",
+          "description": "最高40K 600信用评分",
+          "icon": "/sitelogo/payoff.com.ico"
+        },
+        {
+          "id": "site-1754365947474",
+          "name": " AXOS贷",
+          "url": "https://www.axosbank.com/",
+          "description": "最高50K 720信用评分",
+          "icon": "/sitelogo/www.axosbank.com.ico"
+        },
+        {
+          "id": "site-1754365967997",
+          "name": "自由加贷",
+          "url": "https://www.freedomplus.com/ ",
+          "description": "最高50K 670信用评分",
+          "icon": "/sitelogo/www.freedomplus.com.ico"
+        },
+        {
+          "id": "site-1754365989926",
+          "name": "学生小额贷",
+          "url": "https://www.koramoney.com/ ",
+          "description": "最高几K 无需信用评分\n（需要是学生）",
+          "icon": "/sitelogo/www.koramoney.com.ico"
+        },
+        {
+          "id": "site-1754366072658",
+          "name": "卡密诺金融",
+          "url": "https://www.caminofinancial.com/",
+          "description": "支持只有 ITIN或小白\n无信用记录企业）最高额度不详 加州客户较容易批"
+        },
+        {
+          "id": "site-1754366091774",
+          "name": "月桂贷",
+          "url": "https://www.laurelroad.com/personal-loan/ ",
+          "description": "最高45K 信用分不详",
+          "icon": "/sitelogo/www.laurelroad.com.ico"
+        },
+        {
+          "id": "site-1754366110497",
+          "name": "火箭贷",
+          "url": "https://ikiwi.com.mx/prestamos/cohete/",
+          "description": "最高2K 申请快支持全美国18~65岁 容易批",
+          "icon": "/sitelogo/ikiwi.com.mx.ico"
+        },
+        {
+          "id": "site-1754366130753",
+          "name": "先锋贷",
+          "url": "https://www.avant.com/",
+          "description": "最高35K 征信不好可以申请",
+          "icon": "/sitelogo/www.avant.com.ico"
+        },
+        {
+          "id": "site-1754366159235",
+          "name": "德克萨斯州信用贷",
+          "url": "https://www.textelcu-spanish.org/",
+          "description": "最高大概30K 只限德州使用"
+        },
+        {
+          "id": "site-1754366190602",
+          "name": "黑贷 海员金融贷 ",
+          "url": "https://www.marinerfinance.com/ ",
+          "description": "最高25K 征信不好可以贷 \n0信用评分（一些大城市地区受限制）",
+          "icon": "/sitelogo/www.marinerfinance.com.ico"
+        },
+        {
+          "id": "site-1754366210378",
+          "name": "黑贷 不良信用贷",
+          "url": "https://www.badcreditloans.com/",
+          "description": "最高10K 0信用评分",
+          "icon": "/sitelogo/www.badcreditloans.com.ico"
+        },
+        {
+          "id": "site-1754366234587",
+          "name": "鸡蛋学生贷",
+          "url": "https://www.bestegg.com/ ",
+          "description": " 最高250K 建议700信用评分以上\n（目前没有透露）",
+          "icon": "/sitelogo/www.bestegg.com.ico"
+        },
+        {
+          "id": "site-1754366267362",
+          "name": "认真贷",
+          "url": "https://www.earnest.com/",
+          "description": "最高250K  不良信用贷款\n（目前没有透露信用评分）",
+          "icon": "/sitelogo/www.earnest.com.ico"
+        },
+        {
+          "id": "site-1754366289566",
+          "name": "美国银行融资抵押贷",
+          "url": "https://www.usbank.com/",
+          "description": "最高50K 660信用评分",
+          "icon": "/sitelogo/www.usbank.com.ico"
+        },
+        {
+          "id": "site-1754366309582",
+          "name": "道明银行贷",
+          "url": "http://www.dtbank.com/ ",
+          "description": "最高50K 680信用评分 不良信用贷款",
+          "icon": "/sitelogo/www.dtbank.com.ico"
+        },
+        {
+          "id": "site-1754366328118",
+          "name": "发现贷",
+          "url": "https://www.discover.com/",
+          "description": "最高35K 660信用评分",
+          "icon": "/sitelogo/www.discover.com.ico"
+        },
+        {
+          "id": "site-1754366347012",
+          "name": "借贷点",
+          "url": "https://www.lendingpoint.com/ ",
+          "description": "最高40K 580信用评分",
+          "icon": "/sitelogo/www.lendingpoint.com.ico"
+        },
+        {
+          "id": "site-1754366374942",
+          "name": "海军联邦信用合作社",
+          "url": "https://www.navyfederal.org/",
+          "description": "最高50K （必须是信用合作社成员）\n信用评分不限制 ",
+          "icon": "/sitelogo/www.navyfederal.org.ico"
+        },
+        {
+          "id": "site-1754366398387",
+          "name": "加州医疗医护保健专业人员",
+          "url": "https://global.prod.onfiona.com/",
+          "description": "最高250K 信用评分极好"
+        },
+        {
+          "id": "site-1754366426365",
+          "name": "美国现金贷",
+          "url": "https://www.sfgate.com/ ",
+          "description": "最高10K 只要是美国公民或者永久居民即可申请",
+          "icon": "/sitelogo/www.sfgate.com.ico"
+        },
+        {
+          "id": "site-1754366458313",
+          "name": "个人贷款贷",
+          "url": "https://personalloans.com/",
+          "description": "最高35K \n结婚，家居装修，个人贷款不错的选择",
+          "icon": "/sitelogo/personalloans.com.ico"
+        },
+        {
+          "id": "site-1754366505192",
+          "name": "执行贷",
+          "url": "https://www.peerform.com/",
+          "description": " 最高25K 600信用评分 \n有五个州不支持（没有透露哪个州）",
+          "icon": "/sitelogo/www.peerform.com.ico"
+        },
+        {
+          "id": "site-1754366535375",
+          "name": "小企业贷款 ",
+          "url": "https://www.fundingcircle.com/us/ ",
+          "description": "最高500K 660信用评分 \n条件：（有三年以上的企业，内华达州企业受限制）",
+          "icon": "/sitelogo/www.fundingcircle.com.ico"
+        },
+        {
+          "id": "site-1754430894439",
+          "name": "figure",
+          "url": "https://www.figure.com/",
+          "description": "10天之内到账"
+        }
+      ]
+    },
+    {
+      "id": "category-1754442506509",
+      "icon": "🔍",
+      "name": "查询资质",
+      "order": 3,
+      "sites": [
+        {
+          "id": "site-1754442570991",
+          "name": "truepeoplesearch",
+          "url": "https://www.truepeoplesearch.com/",
+          "description": "人物搜索",
+          "icon": "/sitelogo/www.truepeoplesearch.com.ico"
+        },
+        {
+          "id": "site-1754442632984",
+          "name": "intelius",
+          "url": "https://www.intelius.com/",
+          "description": "人物搜索",
+          "icon": "/sitelogo/www.intelius.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "category-1754338555532",
+      "icon": "🌐",
+      "name": "IP查询",
+      "order": 4,
+      "sites": [
+        {
+          "id": "site-1754338732525",
+          "name": "PING0",
+          "url": "https://ping0.cc/",
+          "description": "IP地址查询",
+          "icon": "/sitelogo/ping0.cc.ico"
+        },
+        {
+          "id": "site-1754354149265",
+          "name": "IP234",
+          "url": "https://ip234.in/en  ",
+          "description": "IP地址查询",
+          "icon": "/sitelogo/ip234.in.ico"
+        }
+      ]
+    },
+    {
+      "id": "category-1754447667661",
+      "icon": "🔍",
+      "name": "ATM机器全球网站",
+      "order": 5,
+      "sites": [
+        {
+          "id": "site-1754447713142",
+          "name": "比特币（BTC）ATM机器全球网站",
+          "url": " https://coinatmradar.com/",
+          "description": "搜索附近的比特币 ATM",
+          "icon": "/sitelogo/coinatmradar.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "category-1754526167091",
+      "icon": "🔍",
+      "name": "反向搜索",
+      "order": 6,
+      "sites": [
+        {
+          "id": "site-1754526228922",
+          "name": "facecheck",
+          "url": "https://facecheck.id/zh",
+          "description": "通过照片在线查找人员\n\n"
         }
       ]
     },
@@ -47,7 +446,7 @@ export const mockData = {
       "id": "ai-tools",
       "name": "AI智能",
       "icon": "🤖",
-      "order": 1,
+      "order": 7,
       "sites": [
         {
           "id": "chatgpt",
@@ -87,296 +486,10 @@ export const mockData = {
       ]
     },
     {
-      "id": "cloud",
-      "name": "云服务",
-      "icon": "☁️",
-      "order": 2,
-      "sites": [
-        {
-          "id": "cloudflare",
-          "name": "Cloudflare",
-          "url": "https://www.cloudflare.com",
-          "description": "全球CDN和网络安全服务",
-          "icon": "/sitelogo/www.cloudflare.com.ico"
-        },
-        {
-          "id": "vercel",
-          "name": "Vercel",
-          "url": "https://vercel.com",
-          "description": "前端部署平台",
-          "icon": "/sitelogo/vercel.com.ico"
-        },
-        {
-          "id": "aws",
-          "name": "AWS",
-          "url": "https://aws.amazon.com",
-          "description": "亚马逊云服务",
-          "icon": "/sitelogo/aws.amazon.com.ico"
-        },
-        {
-          "id": "aliyun",
-          "name": "阿里云",
-          "url": "https://www.aliyun.com",
-          "description": "阿里巴巴云计算",
-          "icon": "/sitelogo/www.aliyun.com.ico"
-        },
-        {
-          "id": "tencent-cloud",
-          "name": "腾讯云",
-          "url": "https://cloud.tencent.com",
-          "description": "腾讯云计算服务",
-          "icon": "/sitelogo/cloud.tencent.com.ico"
-        },
-        {
-          "id": "huawei-cloud",
-          "name": "华为云",
-          "url": "https://www.huaweicloud.com",
-          "description": "华为云计算服务",
-          "icon": "/sitelogo/www.huaweicloud.com.ico"
-        },
-        {
-          "id": "site-1752644060499",
-          "name": "怕死云",
-          "url": "https://www.pasyun.com/",
-          "description": "ipv6机器",
-          "icon": "/sitelogo/www.pasyun.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "dev-tools",
-      "name": "开发工具",
-      "icon": "🛠️",
-      "order": 3,
-      "sites": [
-        {
-          "id": "github",
-          "name": "GitHub",
-          "url": "https://github.com",
-          "description": "代码托管平台",
-          "icon": "/sitelogo/github.com.ico"
-        },
-        {
-          "id": "vscode",
-          "name": "VS Code",
-          "url": "https://code.visualstudio.com",
-          "description": "代码编辑器",
-          "icon": "/sitelogo/code.visualstudio.com.ico"
-        },
-        {
-          "id": "webstorm",
-          "name": "WebStorm",
-          "url": "https://www.jetbrains.com/webstorm/",
-          "description": "专业前端IDE",
-          "icon": "/sitelogo/www.jetbrains.com.ico"
-        },
-        {
-          "id": "postman",
-          "name": "Postman",
-          "url": "https://www.postman.com",
-          "description": "API测试工具",
-          "icon": "/sitelogo/www.postman.com.ico"
-        },
-        {
-          "id": "android-studio",
-          "name": "Android Studio",
-          "url": "https://developer.android.com/studio",
-          "description": "Android官方开发工具",
-          "icon": "/sitelogo/developer.android.com.ico"
-        },
-        {
-          "id": "oracle-java",
-          "name": "Oracle Java",
-          "url": "https://www.oracle.com/java/technologies/downloads/",
-          "description": "Oracle官方Java下载",
-          "icon": "/sitelogo/www.oracle.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "community",
-      "name": "社区论坛",
-      "icon": "👥",
-      "order": 6,
-      "sites": [
-        {
-          "id": "stackoverflow",
-          "name": "Stack Overflow",
-          "url": "https://stackoverflow.com",
-          "description": "程序员问答社区",
-          "icon": "/sitelogo/stackoverflow.com.ico"
-        },
-        {
-          "id": "linuxdo",
-          "name": "Linux.do",
-          "url": "https://linux.do",
-          "description": "Linux与开源技术社区",
-          "icon": "/sitelogo/linux.do.ico"
-        },
-        {
-          "id": "nodeseek",
-          "name": "NodeSeek",
-          "url": "https://www.nodeseek.com",
-          "description": "极客技术社区",
-          "icon": "/sitelogo/www.nodeseek.com.ico"
-        },
-        {
-          "id": "v2ex",
-          "name": "V2EX",
-          "url": "https://www.v2ex.com",
-          "description": "创意工作者社区",
-          "icon": "/sitelogo/www.v2ex.com.ico"
-        },
-        {
-          "id": "52pojie",
-          "name": "吾爱破解",
-          "url": "https://www.52pojie.cn/",
-          "description": "软件安全与破解技术论坛",
-          "icon": "/sitelogo/www.52pojie.cn.ico"
-        }
-      ]
-    },
-    {
-      "id": "design",
-      "name": "设计工具",
-      "icon": "🎨",
-      "order": 4,
-      "sites": [
-        {
-          "id": "figma",
-          "name": "Figma",
-          "url": "https://figma.com",
-          "description": "UI设计工具",
-          "icon": "/sitelogo/figma.com.ico"
-        },
-        {
-          "id": "sketch",
-          "name": "Sketch",
-          "url": "https://www.sketch.com",
-          "description": "界面设计工具",
-          "icon": "/sitelogo/www.sketch.com.ico"
-        },
-        {
-          "id": "canva",
-          "name": "Canva",
-          "url": "https://www.canva.com",
-          "description": "在线设计平台",
-          "icon": "/sitelogo/www.canva.com.ico"
-        },
-        {
-          "id": "adobe-xd",
-          "name": "Adobe XD",
-          "url": "https://www.adobe.com/products/xd.html",
-          "description": "用户体验设计工具",
-          "icon": "/sitelogo/www.adobe.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "finance",
-      "name": "财经投资",
-      "icon": "💰",
-      "order": 5,
-      "sites": [
-        {
-          "id": "binance",
-          "name": "币安",
-          "url": "https://www.binance.com",
-          "description": "加密货币交易平台",
-          "icon": "/sitelogo/www.binance.com.ico"
-        },
-        {
-          "id": "okx",
-          "name": "OKX",
-          "url": "https://www.okx.com",
-          "description": "数字资产交易服务平台",
-          "icon": "/sitelogo/www.okx.com.ico"
-        },
-        {
-          "id": "bitget",
-          "name": "Bitget",
-          "url": "https://www.bitget.com",
-          "description": "全球化数字资产交易服务商",
-          "icon": "/sitelogo/www.bitget.com.ico"
-        },
-        {
-          "id": "tradingview",
-          "name": "TradingView",
-          "url": "https://cn.tradingview.com",
-          "description": "专业金融图表和交易平台",
-          "icon": "/sitelogo/cn.tradingview.com.ico"
-        },
-        {
-          "id": "tonghuashun",
-          "name": "同花顺",
-          "url": "https://www.10jqka.com.cn",
-          "description": "专业股票软件及金融信息服务",
-          "icon": "/sitelogo/www.10jqka.com.cn.ico"
-        },
-        {
-          "id": "xueqiu",
-          "name": "雪球",
-          "url": "https://xueqiu.com",
-          "description": "聪明的投资者都在这里",
-          "icon": "/sitelogo/xueqiu.com.ico"
-        },
-        {
-          "id": "coinbase",
-          "name": "Coinbase",
-          "url": "https://www.coinbase.com",
-          "description": "美国合规加密货币交易平台",
-          "icon": "/sitelogo/www.coinbase.com.ico"
-        },
-        {
-          "id": "futu",
-          "name": "富途牛牛",
-          "url": "https://www.futunn.com",
-          "description": "港美股交易软件",
-          "icon": "/sitelogo/www.futunn.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "learning",
-      "name": "学习资源",
-      "icon": "📚",
-      "order": 6,
-      "sites": [
-        {
-          "id": "mdn",
-          "name": "MDN Web Docs",
-          "url": "https://developer.mozilla.org",
-          "description": "Web开发权威文档",
-          "icon": "/sitelogo/developer.mozilla.org.ico"
-        },
-        {
-          "id": "w3school",
-          "name": "W3Schools",
-          "url": "https://www.w3schools.com",
-          "description": "Web技术教程",
-          "icon": "/sitelogo/www.w3schools.com.ico"
-        },
-        {
-          "id": "runoob",
-          "name": "菜鸟教程",
-          "url": "https://www.runoob.com",
-          "description": "编程技术教程",
-          "icon": "/sitelogo/www.runoob.com.ico"
-        },
-        {
-          "id": "coursera",
-          "name": "Coursera",
-          "url": "https://www.coursera.org",
-          "description": "在线课程平台",
-          "icon": "/sitelogo/www.coursera.org.ico"
-        }
-      ]
-    },
-    {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 7,
+      "order": 8,
       "sites": [
         {
           "id": "json-formatter",
@@ -407,81 +520,7 @@ export const mockData = {
           "icon": "/sitelogo/tinypng.com.ico"
         }
       ]
-    },
-    {
-      "id": "entertainment",
-      "name": "娱乐休闲",
-      "icon": "🎮",
-      "order": 8,
-      "sites": [
-        {
-          "id": "bilibili",
-          "name": "哔哩哔哩",
-          "url": "https://www.bilibili.com",
-          "description": "弹幕视频网站",
-          "icon": "/sitelogo/www.bilibili.com.ico"
-        },
-        {
-          "id": "youtube",
-          "name": "YouTube",
-          "url": "https://www.youtube.com",
-          "description": "视频分享平台",
-          "icon": "/sitelogo/www.youtube.com.ico"
-        },
-        {
-          "id": "douban",
-          "name": "豆瓣",
-          "url": "https://www.douban.com",
-          "description": "文艺生活社区",
-          "icon": "/sitelogo/www.douban.com.ico"
-        },
-        {
-          "id": "zhihu",
-          "name": "知乎",
-          "url": "https://www.zhihu.com",
-          "description": "知识问答社区",
-          "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3E%3Cpath d='M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82A7.65 7.65 0 018 4.58c.68.003 1.36.092 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z'/%3E%3C/svg%3E"
-        }
-      ]
-    },
-    {
-      "id": "office",
-      "name": "办公协作",
-      "icon": "💼",
-      "order": 9,
-      "sites": [
-        {
-          "id": "notion",
-          "name": "Notion",
-          "url": "https://www.notion.so",
-          "description": "全能工作空间",
-          "icon": "/sitelogo/www.notion.so.ico"
-        },
-        {
-          "id": "slack",
-          "name": "Slack",
-          "url": "https://slack.com",
-          "description": "团队协作工具",
-          "icon": "/sitelogo/slack.com.ico"
-        },
-        {
-          "id": "trello",
-          "name": "Trello",
-          "url": "https://trello.com",
-          "description": "项目管理工具",
-          "icon": "/sitelogo/trello.com.ico"
-        },
-        {
-          "id": "feishu",
-          "name": "飞书",
-          "url": "https://www.feishu.cn",
-          "description": "企业协作平台",
-          "icon": "/sitelogo/www.feishu.cn.ico"
-        }
-      ]
     }
   ],
-  "title": "猫猫导航",
-  "search": "bing",
-  "_fileSha": "cf9e9f1ad8644add6c0918786cae6707de255aaf"
+  "title": "纵横导航"
 }
