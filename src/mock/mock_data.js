@@ -166,7 +166,8 @@ export const mockData = {
           "id": "site-1754365597746",
           "name": "繁荣贷",
           "url": "https://www.prosper.com/",
-          "description": "最高40K 640信用评分（1个工作日）"
+          "description": "最高40K 640信用评分（1个工作日）",
+          "icon": "https://icon.bqb.cool/?url=https://www.prosper.com/"
         },
         {
           "id": "site-1754365634504",
